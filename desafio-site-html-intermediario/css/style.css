@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.header {
+    background-color: #192E59;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    color: white;
+    box-shadow: 10px 5px 10px black;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 30%;
+    padding: 30px;
+    background-color: #C4DDF2;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li{
+    list-style: none;
+    padding: 15px;
+    background-color: #2E4A7E;
+    margin: 5px auto 5px auto;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 10px 0;
+}
+
+.content {
+    width: 70%;
+    padding: 30px;
+    background-color: #E4EBF2;
+}
+
+.footer {
+    background-color: #86C6E7;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.icons-flex {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+
+}
+
+.icons-flex a {
+    text-decoration: a;
+}
+
+.social-icons {
+    width: 30px;
+
+}
+
+.quemsomos {
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px gray;
+    margin: 10px 0;
+}
+
+.iframe-yt {
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px gray;
+    margin: 10px 0;
+
+}
+
+.list-modulo2 li{
+    margin-top: 10px;
+    margin-left: 30px;
+}
