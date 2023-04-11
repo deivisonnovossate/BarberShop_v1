@@ -15,10 +15,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/****************
+* HOME - HEADER *
+*****************/
+
 .home {
     background-image: url(../images/bg-home.jpg);
-    height: 100vh;
     background-size: cover;
+    position: relative;
+    height: 100vh;
 }
 
 .home .header {
@@ -35,7 +40,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 3.0rem;
+    margin: 0 1.0rem;
+    width: 15rem;
 }
 
 .home .header .nav ul li a{
@@ -45,6 +51,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     padding: 2.0rem;;
+    letter-spacing: 2px;
 }
 
 .home .header .nav ul li a:hover {
@@ -54,4 +61,43 @@ body {
 
 .home .header .nav ul li .logo {
     margin: 0 3.0rem;
+}
+
+/****************
+* HOME - BANNER *
+*****************/
+
+.home .banner {
+    color: #fafafa;
+    text-align: center;
+    position: absolute;
+
+    height: 27rem;
+    width: 77rem;
+
+    margin-top: -10rem;
+    top: 50%;
+    margin-left: -38.5rem;
+    left: 50%;
+   
+    
+}
+
+.home .banner span {
+    display: block;
+    font-size: 1.4rem;
+}
+
+.home .banner h1 {
+    font-size: 12rem;
+}
+
+.home .banner .slogan1{
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    color: var(--primary-color);
+}
+
+.home .banner .slogan2{
+    margin-bottom: 2.0rem;
 }
