@@ -15,6 +15,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.container {
+    width: 117rem;
+    margin: 0 auto;
+}
+
 /****************
 * HOME - HEADER *
 *****************/
@@ -50,7 +55,7 @@ body {
     font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 2.0rem;;
+    padding: 2.0rem;
     letter-spacing: 2px;
 }
 
@@ -100,4 +105,112 @@ body {
 
 .home .banner .slogan2{
     margin-bottom: 2.0rem;
+}
+
+/****************
+*      ABOUT    *
+*****************/
+.about {
+    background-color: var(--primary-color);
+}
+
+.about .container {
+    display: flex;
+}
+
+.about .timing {
+    width: 33%;
+    position: relative;
+    top: -5rem;
+    background-image: url(../images/brush-big.jpg);
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: center;
+}
+
+.about .experience {
+    width: 66%;
+    color: white;
+    margin-left: 7%;
+    margin-top: 10rem;
+}
+
+/*****************
+* ABOUT - timing *
+******************/
+
+.about .timing .overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 40px;
+}
+
+.about .timing .icon-cut{
+    width: 5rem;
+}
+
+.about .timing .overlay h3{
+    font-size: 3.2rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    border-bottom: 5px solid var(--primary-color);
+    width: fit-content;
+    margin: 0 auto 3rem auto;
+}
+
+.about .timing .text-hours{
+    margin: 1.0rem 0;
+}
+
+.about .timing .text-hours:after{
+    content: '•';
+    color: #fafafa;
+    display: block;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.about .timing .text-hours:last-of-type:after{
+    content: '|';
+}
+
+.about .timing .text-hours h4{
+    color: gray;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.about .timing span{
+    color: white;
+    font-size: 1.6rem;
+    display: block;
+}
+
+/*********************
+* ABOUT - experience *
+**********************/
+
+.about .experience h2{
+    font-weight: 400;
+    font-size: 4rem;
+
+}
+
+.about .experience h2:after{
+    display: block;
+    content: '';
+    width: 10rem;
+    background-color: #a38f78;
+    height: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.about .experience .text-experience{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .text-experience p{
+    margin-bottom: 2rem;
+    font-weight: 100;
+    font-size: 1.7rem;
 }
