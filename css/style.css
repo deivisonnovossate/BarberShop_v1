@@ -30,6 +30,7 @@ body {
     background-size: cover;
     position: relative;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .home .header {
@@ -267,7 +268,7 @@ body {
 .appointment {
     padding: 10rem 0;
     background-color: var(--primary-color);
-    height: 100vh;
+
     background-image: url(../images/chair-ic.png);
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -378,4 +379,73 @@ body {
 
 .gallery .container .gallery-wrapper div img{
     width: 100%;
+}
+
+/*********************
+*     Location       *
+**********************/
+
+.location {
+    background-image: url(../images/bg-location.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 10rem 0;
+
+}
+
+.location .head-location {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 4rem;
+    width: 100%;
+}
+
+.location .head-location .info {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.location .head-location .info .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+}
+
+.location .head-location .info .text-map span {
+    display: block;
+    font-size: 1.3rem;
+}
+.location .head-location .info .text-map span:first-child{
+    color: silver;
+}
+.location .head-location .info .text-map span:last-child{
+    color: white;
+}
+
+.location .map {
+    width: 100%;
+}
+
+.location .map iframe{
+    width: 100%;
+}
+
+
+/*********************
+*     Footer       *
+**********************/
+.footer {
+    text-align: center;
+    background-color: #191919;
+    color: white;
+    padding: 4rem;
+    font-size: 1.2rem;
 }
